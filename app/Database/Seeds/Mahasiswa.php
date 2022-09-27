@@ -13,12 +13,14 @@ class Mahasiswa extends Seeder
                 'npm' => '2057051015',
                 'nama' => 'Franz Kenzo',
                 'alamat' => 'Jakarta',
+                'deskripsi' => 'Keren',
                 'created_at' => Time::now(),
             ],
             [
                 'npm' => '2057051020',
                 'nama' => 'Alex Turner',
                 'alamat' => 'Sheffield',
+                'deskripsi' => 'Ganteng',
                 'created_at' => Time::now()
             ]
 
