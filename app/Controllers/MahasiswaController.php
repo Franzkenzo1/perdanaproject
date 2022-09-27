@@ -25,15 +25,14 @@ class MahasiswaController extends BaseController
 
         return view('mahasiswa/create');
     }
+    public function store()<<<<<<< HEAD
     public function store()
     {
         if(!$this->validate([
             'npm' => 'required|numeric',
             'nama' => 'required',
             'alamat' => 'required',
-            'deskripsi' => 'required',
-        ]))
-        {
+            'deskripsi' => 'required'9a85c2ac5d5a6765cb4c1acced5
             return redirect()->to('/create');
         }
         $mahasiswa_model = new Mahasiswa();

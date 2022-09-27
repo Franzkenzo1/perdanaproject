@@ -10,6 +10,7 @@ class Mahasiswa extends Model
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
+
     protected $useSoftDeletes   = false;
     protected $allowedFields    = ['npm', 'nama', 'alamat', 'deskripsi', 'created_at', 'updated_at'];
 
@@ -18,4 +19,3 @@ class Mahasiswa extends Model
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
-}
